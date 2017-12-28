@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MockitoDemo</string>
+
+    <!--messages-->
+    <string name="error_empty_uname">username is empty</string>
+    <string name="error_empty_password">password is empty</string>
+    <string name="msg_login_success">login success</string>
+</resources>
