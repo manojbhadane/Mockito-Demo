@@ -33,6 +33,7 @@ public class LoginTest
     public void EmptyUsernameTest()
     {
         when(view.getUserName()).thenReturn("");
+        when(view.getPassword()).thenReturn("manojPass");
         mPresenter.onLoginClick();
         verify(view).showMessage(R.string.error_empty_uname);
     }
